@@ -1,0 +1,7 @@
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.pyd filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+yolo_env/lib/site-packages/torch/lib/torch_cpu.dll filter=lfs diff=lfs merge=lfs -text
+yolo_env/lib/site-packages/_polars_runtime_32/_polars_runtime_32.pyd filter=lfs diff=lfs merge=lfs -text
+yolo_env/lib/site-packages/jaxlib/jax_common.dll filter=lfs diff=lfs merge=lfs -text
